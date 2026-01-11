@@ -1,7 +1,7 @@
 // src/lib/api.ts
 
 // 1. Fallback handling for the API URL
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://animax-cinema-back.vercel.app';
 const JIKAN_BASE_URL = 'https://api.jikan.moe/v4';
 
 export interface Movie {
