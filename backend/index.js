@@ -11,7 +11,7 @@ app.use(express.json());
 // 2. UPDATED CORS FOR DEPLOYMENT
 // Replace the URL below with your actual Vercel frontend URL
 app.use(cors({
-  origin: ["https://animax-cinema.vercel.app","http://localhost:8080"], 
+  origin: ["https://animax-cinema-7avm5t90y-yash-jodhs-projects.vercel.app","http://localhost:8080"], 
   credentials: true
 }));
 
